@@ -1,9 +1,7 @@
 # 🌱 TouchGrass AI
-
 > **AI that gives you a reason to leave the screen — not another reason to stare at it.**
 
 **TouchGrass AI** is an offline-first outdoor quest companion built for the **Hacktoberfest 2026 DEV Challenge — Week 1: “Touch Grass.”**
-
 It uses an **open-weight AI model through Ollama** to generate short, personalized outdoor quests. Once a quest is prepared, the user can save it locally, put their phone away, go outside, and complete the experience without depending on the internet.
 
 The core idea is simple:
@@ -33,7 +31,6 @@ The core idea is simple:
 Hacktoberfest Week 1 asks builders to create a **new project with open-source AI at its core** that gets people **off the screen and into the real world**.
 
 TouchGrass is designed specifically around that idea:
-
 - AI generates the **real-world activity**, not more screen content.
 - The AI can run locally through **Ollama** using an open-weight model.
 - Quests can be prepared before leaving home.
@@ -47,14 +44,11 @@ https://dev.to/challenges/hacktoberfest-week1-2026-10-05
 **Official Week 1 rules:**  
 https://dev.to/page/hacktoberfest-week1-2026-10-05-contest-rules
 
-> **Important:** Hacktoberfest 2026 Week 1 is a new-project challenge, not a pull-request-count challenge. For a valid contest entry, the project/repository must be created and completed during the Week 1 entry window and submitted through the required DEV post.
-
 ---
 
 # 💡 Why TouchGrass?
 
 Most AI products encourage people to stay inside an application:
-
 - Chat with an AI
 - Generate content
 - Ask questions
@@ -86,7 +80,6 @@ The actual product experience happens outside.
 ## 1. Generate an Outdoor Quest
 
 The user selects:
-
 - ⏱️ Time: **15 / 30 / 60 minutes**
 - 🚶 Activity:
   - Walking
@@ -487,7 +480,6 @@ npm start
 ```
 
 Then:
-
 1. Open the application.
 2. Generate a quest with Ollama.
 3. Save the quest.
@@ -568,85 +560,15 @@ A strong demo should show the entire product idea in a few minutes:
 ```
 
 The most important moment:
-
 > **Turn the internet off and keep using the saved quest.**
 
 That demonstrates the project's core idea better than a long code walkthrough.
 
----
-
-# 📝 Hacktoberfest Week 1 Submission Checklist
-
-Before submitting, verify every contest requirement.
-
-### Project
-
-- [ ] Project is a **new project** created during the Week 1 entry period.
-- [ ] Repository was created during the challenge window.
-- [ ] Project is completed enough to demonstrate the idea.
-- [ ] Open-source AI is genuinely at the core of the project.
-- [ ] Project clearly fits the **Touch Grass** theme.
-
-### Demo
-
-- [ ] Working deployed demo **or** clear video demo.
-- [ ] GitHub repository link included.
-- [ ] Demo shows the AI generation flow.
-- [ ] Demo shows the outdoor/offline experience.
-
-### DEV submission
-
-- [ ] Publish the required submission post on DEV.
-- [ ] Use the official Week 1 submission template.
-- [ ] Use the required challenge tags:
-  - `#devchallenge`
-  - `#hf26challenge`
-- [ ] Explain what was built.
-- [ ] Explain how it gets people outside.
-- [ ] Explain why open innovation/open-weight AI matters.
-- [ ] Include demo link.
-- [ ] Include GitHub repository link.
-- [ ] Mention relevant partner technology only if it is genuinely used.
-- [ ] If using DevRelay, save/embed/link the agent session.
-
-### Deadline
-
-**October 11, 2026 — 11:59 PM PDT**
-
-Always verify the official challenge page before submitting in case the submission instructions change.
-
----
-
-# ✍️ Suggested DEV Post Story
-
-The submission should not read like a generic README dump.
-
-A stronger story is:
-
-> **What if an AI assistant's job was to make you stop using AI?**
-
-Then explain:
-
-1. The problem — AI keeps people on screens.
-2. The idea — TouchGrass generates real-world quests.
-3. The open-AI decision — local/open-weight inference.
-4. The technical architecture.
-5. The offline design.
-6. The safety constraints.
-7. The actual outdoor test.
-8. What worked and what did not.
-9. What you would build next.
-
-The challenge heavily weights **writing quality**, so the story and evidence of actually using the product matter.
-
----
 
 # 🤝 Open Source & Attribution
 
 If you build on existing open-source libraries, models, code, or ideas, preserve their licenses and give appropriate attribution.
-
 Current major dependencies include:
-
 - Next.js
 - React
 - Dexie
@@ -655,7 +577,6 @@ Current major dependencies include:
 - Qwen2.5-Coder
 
 Check the licenses of all dependencies/models before redistribution or deployment.
-
 Do not present third-party code or ideas as original work.
 
 ---
@@ -663,7 +584,6 @@ Do not present third-party code or ideas as original work.
 # 📄 Project Documentation
 
 Additional project documentation:
-
 - [`docs/PRD (5).md`](docs/PRD%20(5).md) — product requirements and scope
 - [`DEPLOYMENT.md`](DEPLOYMENT.md) — deployment guidance
 - [`AGENTS.md`](AGENTS.md) — agent/development guidance
@@ -671,43 +591,12 @@ Additional project documentation:
 
 ---
 
-# 🌱 The Philosophy
-
-TouchGrass is intentionally different from a normal AI application.
-
-A normal AI app asks:
-
-> **“How can I keep you here longer?”**
-
-TouchGrass asks:
-
-> **“What can I help you do outside?”**
-
-And once the quest starts:
-
-```text
-📱 Put the phone away.
-
-🌳 Go outside.
-
-🚶 Explore.
-
-👀 Notice something new.
-
-🌱 Touch grass.
-```
-
----
 
 ## Hacktoberfest 2026
 
 Built for:
-
 **Hacktoberfest Open-Source AI Challenge — Week 1: Touch Grass**
-
-Challenge window:
-
-**October 5–11, 2026**
+Challenge window: **October 5–11, 2026**
 
 Official challenge:  
 https://dev.to/challenges/hacktoberfest-week1-2026-10-05
